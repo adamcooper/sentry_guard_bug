@@ -205,6 +205,11 @@ GEM
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
     semantic_range (3.0.0)
+    sentry-rails (5.4.2)
+      railties (>= 5.0)
+      sentry-ruby (~> 5.4.2)
+    sentry-ruby (5.4.2)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
     shellany (0.0.1)
     spring (4.1.0)
     sprockets (4.1.1)
@@ -266,6 +271,8 @@ DEPENDENCIES
   rails (~> 6.1.7)
   sass-rails (>= 6)
   selenium-webdriver (>= 4.0.0.rc1)
+  sentry-rails
+  sentry-ruby
   spring
   sqlite3 (~> 1.4)
   turbolinks (~> 5)
